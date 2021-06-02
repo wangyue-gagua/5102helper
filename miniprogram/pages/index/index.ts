@@ -17,6 +17,11 @@ Page({
       url: '../logs/logs',
     })
   },
+  goToSubmit() {
+    wx.navigateTo({
+      url: '../req/req'
+    })
+  },
   onLoad() {
     // @ts-ignore
     if (wx.getUserProfile) {

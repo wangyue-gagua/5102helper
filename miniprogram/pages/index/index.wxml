@@ -13,4 +13,4 @@
   </view>
 </van-card>
 </view>
-<van-button icon="star-o" type="primary" />
+<van-button icon="plus" round type="primary" color="#a0a0a0" class="add-req" bindtap="goToSubmit" />
